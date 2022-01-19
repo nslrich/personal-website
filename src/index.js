@@ -1,17 +1,43 @@
+// NPM Modules
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
+// My Components
+import Header from './components/Header';
+import Spacer from './components/Spacer';
+import Profile from './pages/Profile';
+import Education from './pages/Education';
+import Experience from './pages/Experience';
+import Skills from './pages/Skills';
+// import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+
+// Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+// CSS Imports
+import './index.css';
+
+document.title = 'Nathan Rich';
+
+// Render
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+    {/* NavBar */}
+    <Header />
+
+    {/* Spacer to make sure nothing is hidding behind the navbar */}
+    <Spacer height={56}/>
+
+    {/* Pages/Tabs */}
+    <Profile />
+    <Education />
+    <Experience />
+    <Skills />
+    {/* <Projects /> */}
+    <Contact />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
