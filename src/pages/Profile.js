@@ -37,7 +37,7 @@ function Profile () {
                                 <h4 className='text-center'>About Me</h4>
                                 {/* <hr /> */}
                                 <p>
-                                    My name is Nathan Rich. I'm a semi-experienced software engineer who primarily focus on full stack web development. 
+                                    My name is Nathan Rich. I am an experienced software engineer who primarily focus on full stack web development. 
                                     In my four years of development, I have worked with many technologies in web development, application development, automation, and data collection.  
                                     I have spent most of my time working as a solo developer designing and creating all parts of the software and working directly with the stakeholders.
                                     I am eager to learn more technologies, techniques, and ideas. 
