@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.aceb0820.css",
-    "main.js": "./static/js/main.93189476.js",
+    "main.js": "./static/js/main.11361c65.js",
     "static/media/profile-pic.png": "./static/media/profile-pic.85019f57aebf7ca9dd41.png",
     "static/media/Public_Resume_Nathan_Rich.pdf": "./static/media/Public_Resume_Nathan_Rich.d98bf7f84a8c250ef8b3.pdf",
     "static/media/pdf.svg": "./static/media/pdf.d84cc73f62a054dffb435aae45646b6f.svg",
@@ -12,10 +12,10 @@
     "static/media/empty-star.svg": "./static/media/empty-star.7e4681fb5af45dddb4a82c9989947c18.svg",
     "static/media/full-star.svg": "./static/media/full-star.5a2cbf84b4f64ebab95686be10147a2a.svg",
     "main.aceb0820.css.map": "./static/css/main.aceb0820.css.map",
-    "main.93189476.js.map": "./static/js/main.93189476.js.map"
+    "main.11361c65.js.map": "./static/js/main.11361c65.js.map"
   },
   "entrypoints": [
     "static/css/main.aceb0820.css",
-    "static/js/main.93189476.js"
+    "static/js/main.11361c65.js"
   ]
 }
