@@ -1,0 +1,99 @@
+.experience-title {
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.experience-row {
+    display: flex;
+}
+
+.experience-item-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-item-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-item-employeer {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.experience-item-location {
+    margin: 0.2rem 0rem;
+}
+
+.experience-item-role {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.experience-item-description {
+    margin: 0.5rem 0rem;
+    list-style-type: circle;
+}
+
+.experience-hr {
+    border-top: 1px solid grey;
+}
+
+/* Media to change nav bar location */
+@media (min-width: 0px) and (max-width: 750px) {
+
+    .experience {
+        width: 100%;
+    }
+    
+    .experience-row {
+        padding: 1rem 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-item-left {
+        width: 100%;
+        margin-bottom: 0.75rem;
+    }
+
+    .experience-item-right {
+        width: 100%;
+    }
+
+    .experience-hr {
+        margin: 0.5rem 1rem;
+    }
+}
+
+@media (min-width: 750px) {
+    
+    .experience {
+        width: calc(100vw - 180px);
+    }
+
+    .experience-row {
+        padding: 1rem 4rem 1rem 1rem;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .experience-item-left {
+        width: 30%;
+    }
+
+    .experience-item-right {
+        width: 65%;
+    }
+
+    .experience-hr {
+        margin: 0.5rem 4rem 0.5rem 0rem;
+    }
+}
+

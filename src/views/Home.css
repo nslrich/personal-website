@@ -1,0 +1,86 @@
+.home-image {
+    padding: 40px;
+}
+
+.home-image-pic {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+    box-shadow: 0 0 7px rgb(0 0 0 / 90%);
+    object-fit: cover;
+}
+
+.home-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-label {
+    font-size: 22px;
+}
+
+.home-name {
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.home-title {
+    font-size: 30px;
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+}
+
+.home-descp {
+    font-size: 18px;
+    width: 75%;
+    text-align: center;
+}
+
+/* Media to change nav bar location */
+@media (min-width: 0px) and (max-width: 750px) {
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .home-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-image-pic {
+        background-image: url('../images/profile-pic-small.jpg');
+        border-radius: 100%;
+        height: 250px;
+        width: 250px;
+    }
+    
+}
+
+@media (min-width: 750px) {
+    
+    .home {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 35% calc(65% - 87px);
+    }
+
+    .home-image-pic {
+        background-image: url('../images/profile-pic-large.jpg');
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .home-main {
+        justify-content: center;
+    }
+}

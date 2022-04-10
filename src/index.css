@@ -1,128 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+
+  --primary-color: #CF9D33;
+  /* --primary-color: #037afe; */
+  /* --primary-color: #3E7BFA; */
+  /* --primary-color: #fdac41; */
+
+  --primary-color-op: rgba(0, 0, 0, 0.8);
+  --secondary-color: #CF9D33;
+
+  --primary-bg: #121212;
+  --secondary-bg: #3a3a3a;
+  --tertiary-bg: #656565;
+
+  --light-text: white;
+  --dark-text: black;
+
+  --border-color: rgba(212, 212, 212, 0.3);
+
+  --placeholder-color: rgba(175, 175, 175, 1);
+
+  --hover-bg: rgba(100, 100, 100, 0.65);
+}
+
 ::-webkit-scrollbar {
-	width: 16px;
-	height: 1em;
+  width: 1em;
+  height: 1em;
 }
 
 ::-webkit-scrollbar-track {
-	background: #252626;
+  background: var(--secondary-bg);
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #cf9d33;
-	border: 0.25em solid #343a40;
-	border-radius: 100vw;
+  background: var(--tertiary-bg);
+  border: 0.25em solid var(--secondary-bg);
+  border-radius: 100vw;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #fff
+  background: var(--primary-color)
 }
-  
+
 body {
-	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-		sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
+  margin: 0;
 
-.text-center {
-  	width: 100%;
-	text-align: center;
-}
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
-.jc-end {
-	justify-content: end;
-}
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 
-.no-wrap {
-	flex-wrap: nowrap;
-}
+  /* background-image: url('./images/svg.svg'); */
+  background-color: var(--primary-bg);
+  color: var(--light-text);
 
-.theme {
-	color: #cf9d33;
-}
-
-.underline {
-	border-bottom: 1px solid #cf9d33;
-}
-
-.items-center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.no-side-margins {
-	margin-left: 0px;
-	margin-right: 0px;
-}
-
-.container{
-	padding: 40px 40px;
-	margin: auto;
-}
-
-.location {
-	height: 15px; 
-	display: flex;
-	align-items: center;
-}
-
-.map-pin-icon {
-	width: 15px;
-	height: 15px;
-	margin-right: 2px;
-}
-
-.link-icon {
-	width: 30px;
-	height: 30px;
-	margin: 0px;
-	padding: 0px;
-	margin-bottom: 15px;
-}
-
-.sm-top-bot-mrg {
-	margin: 8px 0px;
-}
-
-.row-highlight:hover {
-	background-color: #bbbbbb;
-	color: #000;
-}
-
-.star-icon {
-	width: 20px;
-	height: 20px;
-	margin: 0px;
-	padding: 0px;
-	margin-right: 3px;
-}
-
-.contact-row {
-	margin-bottom: 14px;
-}
-
-.contact-icon {
-	width: 30px;
-	height: 30px;
-	margin: 0px;
-	padding: 0px;
-	margin-right: 10px; 
-}
-
-.contact-link {
-	flex: 1;
-	align-items: center;
-	margin: 0px;
-	padding: 2px 0px;
-}
-
-p {
-	margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
 }

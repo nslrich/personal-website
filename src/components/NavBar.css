@@ -1,0 +1,40 @@
+.nav-bar {
+    position: fixed;
+    display: flex;
+    border-radius: 25px;
+    background-color: var(--primary-color-op);
+    padding: 0.5rem;
+}
+
+.nav-bar-item {
+    padding: 1rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-item:hover {
+    background-color: var(--secondary-bg);
+}
+
+.nav-bar-img {
+    height: 27px;
+}
+
+/* Media to change nav bar location */
+@media (min-width: 0px) and (max-width: 750px) {
+    .nav-bar {
+        bottom: 5px;
+        left: calc(50% - 155px);
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 750px) {
+    .nav-bar {
+        right: 12px;
+        top: calc(50% - 155px);
+        flex-direction: column;
+    }
+}

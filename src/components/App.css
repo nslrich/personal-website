@@ -1,0 +1,31 @@
+.txt-left {
+    text-align: end;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.vertical-spacer {
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+
+.bottom-spacer {
+    width: 100%;
+}
+
+/* Media to change nav bar location */
+@media (min-width: 0px) and (max-width: 750px) {
+    .bottom-spacer {
+        display: flex;
+        height: 90px;
+    }
+}
+
+@media (min-width: 750px) {
+    .bottom-spacer {
+        display: none;
+    }
+}
