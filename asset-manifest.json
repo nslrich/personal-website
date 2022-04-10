@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.aceb0820.css",
-    "main.js": "./static/js/main.11361c65.js",
-    "static/media/profile-pic.png": "./static/media/profile-pic.85019f57aebf7ca9dd41.png",
-    "static/media/Public_Resume_Nathan_Rich.pdf": "./static/media/Public_Resume_Nathan_Rich.d98bf7f84a8c250ef8b3.pdf",
+    "main.css": "./static/css/main.56bf77e2.css",
+    "main.js": "./static/js/main.6cc7e656.js",
+    "static/media/profile-pic-large.jpg": "./static/media/profile-pic-large.0b700f1830831ea2e845.jpg",
+    "static/media/Resume-Public.pdf": "./static/media/Resume-Public.4fdf22c0fff0b3f5ae94.pdf",
+    "static/media/profile-pic-small.jpg": "./static/media/profile-pic-small.e0e783231dfcbd624c5a.jpg",
     "static/media/pdf.svg": "./static/media/pdf.d84cc73f62a054dffb435aae45646b6f.svg",
+    "static/media/skills.svg": "./static/media/skills.76dae5b7aaec56a19253cddc24bbf2fc.svg",
     "static/media/email.svg": "./static/media/email.43559b461c3a5398101e9cf234a3e59d.svg",
+    "static/media/home.svg": "./static/media/home.336775ec9ab591acdd48671685fef97f.svg",
     "static/media/github-logo.svg": "./static/media/github-logo.bf66a2892046086f53af34ee044addda.svg",
-    "static/media/linkedin-logo.svg": "./static/media/linkedin-logo.bbd353115c8c4f4082d71cb50ebf73b1.svg",
+    "static/media/grad-cap.svg": "./static/media/grad-cap.ba515885a1b974ef3b20223fdde7c545.svg",
+    "static/media/link-logo.svg": "./static/media/link-logo.bbd353115c8c4f4082d71cb50ebf73b1.svg",
     "index.html": "./index.html",
-    "static/media/empty-star.svg": "./static/media/empty-star.7e4681fb5af45dddb4a82c9989947c18.svg",
-    "static/media/full-star.svg": "./static/media/full-star.5a2cbf84b4f64ebab95686be10147a2a.svg",
-    "main.aceb0820.css.map": "./static/css/main.aceb0820.css.map",
-    "main.11361c65.js.map": "./static/js/main.11361c65.js.map"
+    "static/media/contact.svg": "./static/media/contact.bce4fa96ce1899f512c392e9f194888a.svg",
+    "static/media/work.svg": "./static/media/work.ed0af46cdf6ea5e1dda52158b24ed3a7.svg",
+    "main.56bf77e2.css.map": "./static/css/main.56bf77e2.css.map",
+    "main.6cc7e656.js.map": "./static/js/main.6cc7e656.js.map"
   },
   "entrypoints": [
-    "static/css/main.aceb0820.css",
-    "static/js/main.11361c65.js"
+    "static/css/main.56bf77e2.css",
+    "static/js/main.6cc7e656.js"
   ]
 }
