@@ -12,9 +12,29 @@ function Experience() {
 
             <div className='experience-row'>
                 <div className='experience-item-left'>
+                    <div className='experience-item-employeer'>Perceptly</div>
+                    <div className='experience-item-location'>Remote, US</div>
+                    <div className='experience-item-year'>Jun. 2022 - Jun 2023</div>
+                </div>
+                <div className='experience-item-right'>
+                    <div className='experience-item-role'>Senior Software Engineer</div>
+                    <ul className='experience-item-description'>
+                        <li>Designed, developed and maintained full stack web app using MERN + BigQuery.</li>
+                        <li>Designed, developed API connections (OAuth) to Facebook, Google, and TikTok accounts.</li>
+                        <li>Responsible for designing and developing payment collection via Stripe's API</li>
+                        <li>Designed, developed and deployed automation software for data collection from various API's using Python and Nodejs</li>
+                        <li>Created and maintained databases and cloud storage (Google's BigQuery + Cloud Storage and MongoDB).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div className='experience-hr'></div>
+
+            <div className='experience-row'>
+                <div className='experience-item-left'>
                     <div className='experience-item-employeer'>Yale Cordage, Inc.</div>
                     <div className='experience-item-location'>Saco, Maine</div>
-                    <div className='experience-item-year'>Jan. 2020 - Present</div>
+                    <div className='experience-item-year'>Jan. 2020 - Jun. 2022</div>
                 </div>
                 <div className='experience-item-right'>
                     <div className='experience-item-role'>Software Engineer</div>
